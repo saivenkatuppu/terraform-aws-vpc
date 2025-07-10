@@ -2,7 +2,7 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 data "aws_vpc" "default" {
-  default = true
+  default = false
 }
 
 # output "azs_info" {
